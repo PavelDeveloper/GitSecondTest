@@ -14,7 +14,7 @@
 		D915743221A6CB9E008F9983 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D915743021A6CB9E008F9983 /* LaunchScreen.storyboard */; };
 		D915743D21A6CB9E008F9983 /* GitProjectTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915743C21A6CB9E008F9983 /* GitProjectTests.swift */; };
 		D915744821A6CB9E008F9983 /* GitProjectUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D915744721A6CB9E008F9983 /* GitProjectUITests.swift */; };
-		D915745621A6CF31008F9983 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D915745521A6CF31008F9983 /* .gitignore */; };
+		D915745A21A819C6008F9983 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = D915745921A819C6008F9983 /* .gitignore */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,7 +48,7 @@
 		D915744321A6CB9E008F9983 /* GitProjectUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitProjectUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D915744721A6CB9E008F9983 /* GitProjectUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GitProjectUITests.swift; sourceTree = "<group>"; };
 		D915744921A6CB9E008F9983 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		D915745521A6CF31008F9983 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
+		D915745921A819C6008F9983 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitignore; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,7 +79,6 @@
 		D915741B21A6CB9C008F9983 = {
 			isa = PBXGroup;
 			children = (
-				D915745521A6CF31008F9983 /* .gitignore */,
 				D915742621A6CB9C008F9983 /* GitProject */,
 				D915743B21A6CB9E008F9983 /* GitProjectTests */,
 				D915744621A6CB9E008F9983 /* GitProjectUITests */,
@@ -106,6 +105,7 @@
 				D915742E21A6CB9E008F9983 /* Assets.xcassets */,
 				D915743021A6CB9E008F9983 /* LaunchScreen.storyboard */,
 				D915743321A6CB9E008F9983 /* Info.plist */,
+				D915745921A819C6008F9983 /* .gitignore */,
 			);
 			path = GitProject;
 			sourceTree = "<group>";
@@ -232,7 +232,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D915745621A6CF31008F9983 /* .gitignore in Resources */,
+				D915745A21A819C6008F9983 /* .gitignore in Resources */,
 				D915743221A6CB9E008F9983 /* LaunchScreen.storyboard in Resources */,
 				D915742F21A6CB9E008F9983 /* Assets.xcassets in Resources */,
 				D915742D21A6CB9C008F9983 /* Main.storyboard in Resources */,
