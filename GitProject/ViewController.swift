@@ -13,6 +13,10 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        print("Another print")
-    } 
+    }
+    
+    func masterBranchFunction() {
+        print("print master")
+    }
 }
 
