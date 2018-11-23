@@ -16,7 +16,7 @@ class ViewController: UIViewController {
     }
     
     func masterBranchFunction() {
-        print("print master")
+        print("print second type master")
     }
 }
 
