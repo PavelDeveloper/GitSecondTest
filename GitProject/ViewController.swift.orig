@@ -13,9 +13,14 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
        print("Another print")
+<<<<<<< HEAD
     }
     
     func masterBranchFunction() {
-        print("print master")
+        print("print second type master")
     }
+=======
+    } 
+>>>>>>> bugFixBranch
 }
+
